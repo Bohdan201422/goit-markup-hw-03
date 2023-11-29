@@ -119,6 +119,8 @@ body {
 
 .head .conteiner {
   flex-direction: column;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .head-title {
@@ -133,8 +135,7 @@ body {
   padding-top: 188px;
   padding-bottom: 48px;
   text-align: center;
-  padding-left: 472px;
-  padding-right: 472px;
+  max-width: 496px;
 }
 
 .order-button {
@@ -152,6 +153,10 @@ body {
   gap: 10px;
   margin-bottom: 188px;
   margin-inline: 665px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .order-button:hover,
