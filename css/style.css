@@ -376,7 +376,7 @@ img {
   display: block;
 }
 
-.conteiner {
+.container {
   display: flex;
   flex-shrink: 0;
 }
