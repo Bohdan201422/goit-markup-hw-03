@@ -164,8 +164,20 @@ body {
   background: #404bbf;
 }
 
-.advent-title {
-  display: none;
+.advent {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .advent-conteiner {
@@ -177,6 +189,7 @@ body {
 }
 
 .advent-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .advent-list-title {
@@ -187,6 +200,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .advent-list-text {
