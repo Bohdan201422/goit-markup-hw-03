@@ -115,12 +115,12 @@ body {
 .head {
   flex-shrink: 0;
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .head .conteiner {
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .head-title {
