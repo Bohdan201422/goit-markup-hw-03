@@ -285,6 +285,8 @@ body {
 
 .portfolio {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio .conteiner {
@@ -314,6 +316,7 @@ body {
   margin-left: 156px;
   margin-right: 156px;
   margin-bottom: 120px;
+  row-gap: 48px;
 }
 
 .portfolio-conteiner-list {
@@ -321,6 +324,13 @@ body {
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-conteiner-title {
@@ -332,6 +342,7 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio-conteiner-text {
