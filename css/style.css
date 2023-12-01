@@ -220,6 +220,8 @@ body {
 .team {
   flex-shrink: 0;
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-conteiner {
@@ -248,6 +250,12 @@ body {
   padding-bottom: 0px;
   justify-content: center;
   background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-conteiner-title {
@@ -260,6 +268,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-conteiner-text {
