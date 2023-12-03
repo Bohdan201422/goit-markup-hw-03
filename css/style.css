@@ -42,7 +42,6 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 156px;
   margin-right: 76px;
 }
 
@@ -61,7 +60,6 @@ body {
   align-items: center;
   gap: 40px;
   padding-left: 76px;
-  padding-right: 332px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -86,6 +84,7 @@ body {
 
 .contacts {
   font-style: normal;
+  margin-left: 332px;
 }
 
 .contacts-conteiner {
