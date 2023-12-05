@@ -226,7 +226,7 @@ body {
 }
 
 .team div {
-  display: block;
+  flex-direction: column;
 }
 
 .team-conteiner {
