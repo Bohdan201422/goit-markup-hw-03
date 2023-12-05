@@ -59,7 +59,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding-left: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -122,6 +121,11 @@ body {
   flex-direction: column;
 }
 
+.head div {
+  display: block;
+  margin-left: 472px;
+}
+
 .head-title {
   color: #fff;
   text-align: center;
@@ -131,9 +135,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  padding-top: 188px;
   padding-bottom: 48px;
-  text-align: center;
   max-width: 496px;
 }
 
@@ -150,12 +152,11 @@ body {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
-  margin-bottom: 188px;
-  margin-inline: 665px;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: 164px;
 }
 
 .order-button:hover,
@@ -164,8 +165,6 @@ body {
 }
 
 .advent {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -223,12 +222,15 @@ body {
   padding-bottom: 120px;
 }
 
+.team div {
+  display: block;
+}
+
 .team-conteiner {
   list-style-type: none;
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 120px;
 }
 
 .team-title {
@@ -241,7 +243,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -284,12 +285,14 @@ body {
 
 .portfolio {
   background: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio .conteiner {
   flex-direction: column;
+}
+
+.portfolio div {
+  display: block;
 }
 
 .portfolio-title {
@@ -358,12 +361,15 @@ body {
 .footer {
   flex-shrink: 0;
   background: #2e2f42;
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer .conteiner {
   flex-direction: column;
+}
+
+.footer div {
+  display: block;
 }
 
 .footer-logo {
@@ -401,9 +407,8 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-  margin-bottom: 100px;
   margin-left: 156px;
-  margin-right: 1060px;
+  max-width: 264px;
 }
 
 h1,
