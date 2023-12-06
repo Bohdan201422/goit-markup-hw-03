@@ -253,7 +253,6 @@ body {
   background: var(--WHITE, #fff);
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 3 * 24px) / 4);
-  max-width: 264px;
 }
 
 .team-div {
@@ -329,7 +328,6 @@ body {
   border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
-  max-width: 362px;
 }
 
 .portfolio-div {
