@@ -214,10 +214,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.team .conteiner {
-  flex-direction: column;
-}
-
 .team {
   flex-shrink: 0;
   background: #f4f4fd;
@@ -297,11 +293,10 @@ body {
 }
 
 .portfolio .conteiner {
-  flex-direction: column;
 }
 
 .portfolio div {
-  display: block;
+  flex-direction: column;
 }
 
 .portfolio-title {
@@ -334,6 +329,7 @@ body {
   border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
+  max-width: 362px;
 }
 
 .portfolio-div {
