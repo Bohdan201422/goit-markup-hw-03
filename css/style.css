@@ -329,7 +329,6 @@ body {
 .portfolio-conteiner-list {
   padding-bottom: 0px;
   flex-shrink: 0;
-  border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
 }
